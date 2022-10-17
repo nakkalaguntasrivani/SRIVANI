@@ -13,23 +13,27 @@
 5c_dir1:5c_dir1.c
 	gcc 5c_dir1.c -o 5c_dir1
 
+7_ls:7_ls.c
+	gcc 7_ls.c -o 7_ls
+
 8create:8create.c
 	gcc 8create.c -o 8create
 
 9_sigbeh:9_sigbeh.c
 	gcc 9_sigbeh.c -o 9_sigbeh
 
-10swap_file:10swap_file.c
-	gcc 10swap_file.c -o 10swap_file
+10_swap:10_swap.c
+	gcc 10_swap.c -o 10_swap
 
-11:11.c
-	gcc 11.c -o 11
+11_th_wo_mut:11_th_wo_mut.c
+	gcc 11_th_wo_mut.c -o 11_th_wo_mut
 
-12:12.c
-	gcc 12.c -o 12
+12_mesg_ptoc:12_mesg_ptoc.c
+	gcc 12_mesg_ptoc.c -o 12_mesg_ptoc
 
-15thrd_cond:15thrd_cond.c
-	gcc 15thrd_cond -o 15thrd_cond
+
+16thrd_cond:16thrd_cond.c
+	gcc 16thrd_cond -o 16thrd_cond
 
 
 	

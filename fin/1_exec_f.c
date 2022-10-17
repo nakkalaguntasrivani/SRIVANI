@@ -3,6 +3,7 @@
 #include<stdlib.h>
 #include<unistd.h>
 #include<fcntl.h>
+#include<wait.h>
 void main()
 {
 	int i,j;

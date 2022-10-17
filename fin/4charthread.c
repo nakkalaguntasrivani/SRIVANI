@@ -12,19 +12,20 @@ void main()
 {
 	
 	pthread_t ti1,ti2;
-	int *ptr;
+	int *ptr,ret;
 	printf("Enter the string:\n");
         scanf("%[^\n]s",str);
 	pthread_create(&ti1,NULL,thread_fun1,&str);
 	pthread_create(&ti2,NULL,thread_fun2,&str);
 //	pthread_mutex_lock(&mutex);
-	pthread_join(ti1,&ptr);
+	ret=pthread_join(ti1,&ptr);
+	printf("ret:%d\n",ret);
 	pthread_join(ti2,&ptr);
 }
 void *thread_fun1(void *ptr)
 {
 	int i;
-	printf("hai\n");
+//	printf("hai\n");
 	for(i=0;str[i]!='\0';i++)
 	{
 		sleep(1);
@@ -37,7 +38,7 @@ void *thread_fun1(void *ptr)
 void *thread_fun2(void *ptr)
 {
 	int i;
-	printf("bye\n");
+//	printf("bye\n");
 	for(i=0;str[i]!='\0';i++)
 	{
 		sleep(1);
