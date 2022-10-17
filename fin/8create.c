@@ -1,3 +1,4 @@
+//to create a file without using create system call
 #include<stdio.h>
 #include<fcntl.h>
 void main()

@@ -1,4 +1,4 @@
-//two threads simultaneously
+//printing two threads simultaneously by using mutex
 #include<stdio.h>
 #include<stdlib.h>
 #include<pthread.h>

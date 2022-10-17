@@ -22,7 +22,7 @@ void main()
 			char dir_nam[20];
 			printf("enter the name of directory\n");
 			scanf("%s",dir_nam);
-			ret=mkdir(dir_nam,0660);
+			ret=mkdir(dir_nam,0664);
 			printf("ret:%d\n",ret);
 			break;
 			case 2:

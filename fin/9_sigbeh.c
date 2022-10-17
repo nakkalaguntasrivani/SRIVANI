@@ -1,4 +1,4 @@
-//9.change of signal behaviour
+//9.change the signal behaviour
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>

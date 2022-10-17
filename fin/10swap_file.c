@@ -1,3 +1,4 @@
+//to swap the data between two files
 #include<stdio.h>
 #include<string.h>
 #include<unistd.h>

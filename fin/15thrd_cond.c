@@ -1,3 +1,4 @@
+//to print even and odd numbers simulatenously by using conditional variables
 #include<stdio.h>
 #include<pthread.h>
 #include<unistd.h>

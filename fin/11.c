@@ -1,3 +1,4 @@
+//to print two threads simulatenously without using mutex
 #include<stdio.h>
 #include<pthread.h>
 #include<stdlib.h>
